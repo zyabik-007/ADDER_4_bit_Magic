@@ -1,0 +1,304 @@
+* SPICE3 file created from ADDER4bit.ext - technology: scmos
+
+M1000 Gnd A3 ADDER1bit_1/AND_1/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=63.27p pd=199.8u as=1.98p ps=6u
+M1001 Vdd A3 ADDER1bit_1/AND_1/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=69.12p pd=216u as=1.98p ps=6u
+M1002 ADDER1bit_1/AND_1/a_n2_17# B3 ADDER1bit_1/AND_1/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1003 ADDER1bit_1/OR_0/in1 ADDER1bit_1/AND_1/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1004 ADDER1bit_1/AND_1/a_n30_26# B3 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Gnd ADDER1bit_1/AND_1/a_n30_26# ADDER1bit_1/OR_0/in1 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1006 Gnd ADDER1bit_1/XOR_1/in1 ADDER1bit_1/AND_0/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1007 Vdd ADDER1bit_1/XOR_1/in1 ADDER1bit_1/AND_0/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1008 ADDER1bit_1/AND_0/a_n2_17# ADDER1bit_1/CIn ADDER1bit_1/AND_0/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1009 ADDER1bit_1/OR_0/in2 ADDER1bit_1/AND_0/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1010 ADDER1bit_1/AND_0/a_n30_26# ADDER1bit_1/CIn Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1011 Gnd ADDER1bit_1/AND_0/a_n30_26# ADDER1bit_1/OR_0/in2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1012 A3 B3 ADDER1bit_1/XOR_1/in1 Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=5.13p ps=16.2u
+M1013 ADDER1bit_1/XOR_1/in1 B3 ADDER1bit_1/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1014 ADDER1bit_1/XOR_0/a_12_17# A3 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1015 Gnd A3 ADDER1bit_1/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1016 ADDER1bit_1/XOR_1/in1 ADDER1bit_1/XOR_0/a_12_17# B3 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1017 ADDER1bit_1/XOR_1/in1 A3 B3 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1018 ADDER1bit_1/XOR_1/in1 ADDER1bit_1/CIn S3 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1019 S3 ADDER1bit_1/CIn ADDER1bit_1/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1020 ADDER1bit_1/XOR_1/a_12_17# ADDER1bit_1/XOR_1/in1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1021 Gnd ADDER1bit_1/XOR_1/in1 ADDER1bit_1/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1022 S3 ADDER1bit_1/XOR_1/a_12_17# ADDER1bit_1/CIn Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1023 S3 ADDER1bit_1/XOR_1/in1 ADDER1bit_1/CIn Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.51p ps=10.8u
+M1024 ADDER1bit_1/OR_0/a_2_n9# ADDER1bit_1/OR_0/in2 ADDER1bit_1/OR_0/a_0_n41# Vdd pfet w=1.2u l=0.6u
++  ad=2.16p pd=6u as=1.8p ps=5.4u
+M1025 ADDER1bit_1/OR_0/a_0_n41# ADDER1bit_1/OR_0/in2 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=0p ps=0u
+M1026 Vdd ADDER1bit_1/OR_0/in1 ADDER1bit_1/OR_0/a_2_n9# Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1027 S4 ADDER1bit_1/OR_0/a_0_n41# Gnd Gnd nfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1028 Vdd ADDER1bit_1/OR_0/a_0_n41# S4 Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=1.8p ps=5.4u
+M1029 ADDER1bit_1/OR_0/a_0_n41# ADDER1bit_1/OR_0/in1 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1030 Gnd A2 ADDER1bit_2/AND_1/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1031 Vdd A2 ADDER1bit_2/AND_1/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1032 ADDER1bit_2/AND_1/a_n2_17# B2 ADDER1bit_2/AND_1/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1033 B3 ADDER1bit_2/AND_1/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1034 ADDER1bit_2/AND_1/a_n30_26# B2 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1035 Gnd ADDER1bit_2/AND_1/a_n30_26# B3 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1036 Gnd ADDER1bit_2/XOR_1/in1 ADDER1bit_2/AND_0/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1037 Vdd ADDER1bit_2/XOR_1/in1 ADDER1bit_2/AND_0/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1038 ADDER1bit_2/AND_0/a_n2_17# ADDER1bit_2/CIn ADDER1bit_2/AND_0/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1039 ADDER1bit_2/OR_0/in2 ADDER1bit_2/AND_0/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1040 ADDER1bit_2/AND_0/a_n30_26# ADDER1bit_2/CIn Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1041 Gnd ADDER1bit_2/AND_0/a_n30_26# ADDER1bit_2/OR_0/in2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1042 A2 B2 ADDER1bit_2/XOR_1/in1 Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=5.13p ps=16.2u
+M1043 ADDER1bit_2/XOR_1/in1 B2 ADDER1bit_2/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1044 ADDER1bit_2/XOR_0/a_12_17# A2 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1045 Gnd A2 ADDER1bit_2/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1046 ADDER1bit_2/XOR_1/in1 ADDER1bit_2/XOR_0/a_12_17# B2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1047 ADDER1bit_2/XOR_1/in1 A2 B2 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1048 ADDER1bit_2/XOR_1/in1 ADDER1bit_2/CIn S2 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1049 S2 ADDER1bit_2/CIn ADDER1bit_2/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1050 ADDER1bit_2/XOR_1/a_12_17# ADDER1bit_2/XOR_1/in1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1051 Gnd ADDER1bit_2/XOR_1/in1 ADDER1bit_2/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1052 S2 ADDER1bit_2/XOR_1/a_12_17# ADDER1bit_2/CIn Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1053 S2 ADDER1bit_2/XOR_1/in1 ADDER1bit_2/CIn Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.51p ps=10.8u
+M1054 ADDER1bit_2/OR_0/a_2_n9# ADDER1bit_2/OR_0/in2 ADDER1bit_2/OR_0/a_0_n41# Vdd pfet w=1.2u l=0.6u
++  ad=2.16p pd=6u as=1.8p ps=5.4u
+M1055 ADDER1bit_2/OR_0/a_0_n41# ADDER1bit_2/OR_0/in2 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=0p ps=0u
+M1056 Vdd B3 ADDER1bit_2/OR_0/a_2_n9# Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1057 ADDER1bit_1/CIn ADDER1bit_2/OR_0/a_0_n41# Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1058 Vdd ADDER1bit_2/OR_0/a_0_n41# ADDER1bit_1/CIn Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1059 ADDER1bit_2/OR_0/a_0_n41# B3 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1060 Gnd B1 ADDER1bit_3/AND_1/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1061 Vdd B1 ADDER1bit_3/AND_1/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1062 ADDER1bit_3/AND_1/a_n2_17# B1 ADDER1bit_3/AND_1/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1063 B2 ADDER1bit_3/AND_1/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1064 ADDER1bit_3/AND_1/a_n30_26# B1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1065 Gnd ADDER1bit_3/AND_1/a_n30_26# B2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1066 Gnd ADDER1bit_3/XOR_1/in1 ADDER1bit_3/AND_0/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1067 Vdd ADDER1bit_3/XOR_1/in1 ADDER1bit_3/AND_0/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1068 ADDER1bit_3/AND_0/a_n2_17# ADDER1bit_3/CIn ADDER1bit_3/AND_0/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1069 ADDER1bit_3/OR_0/in2 ADDER1bit_3/AND_0/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1070 ADDER1bit_3/AND_0/a_n30_26# ADDER1bit_3/CIn Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1071 Gnd ADDER1bit_3/AND_0/a_n30_26# ADDER1bit_3/OR_0/in2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1072 B1 B1 ADDER1bit_3/XOR_1/in1 Vdd pfet w=0.9u l=0.6u
++  ad=5.13p pd=16.2u as=5.13p ps=16.2u
+M1073 ADDER1bit_3/XOR_1/in1 B1 ADDER1bit_3/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1074 ADDER1bit_3/XOR_0/a_12_17# B1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1075 Gnd B1 ADDER1bit_3/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1076 ADDER1bit_3/XOR_1/in1 ADDER1bit_3/XOR_0/a_12_17# B1 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1077 ADDER1bit_3/XOR_1/in1 B1 B1 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1078 ADDER1bit_3/XOR_1/in1 ADDER1bit_3/CIn S1 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1079 S1 ADDER1bit_3/CIn ADDER1bit_3/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1080 ADDER1bit_3/XOR_1/a_12_17# ADDER1bit_3/XOR_1/in1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1081 Gnd ADDER1bit_3/XOR_1/in1 ADDER1bit_3/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1082 S1 ADDER1bit_3/XOR_1/a_12_17# ADDER1bit_3/CIn Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1083 S1 ADDER1bit_3/XOR_1/in1 ADDER1bit_3/CIn Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.51p ps=10.8u
+M1084 ADDER1bit_3/OR_0/a_2_n9# ADDER1bit_3/OR_0/in2 ADDER1bit_3/OR_0/a_0_n41# Vdd pfet w=1.2u l=0.6u
++  ad=2.16p pd=6u as=1.8p ps=5.4u
+M1085 ADDER1bit_3/OR_0/a_0_n41# ADDER1bit_3/OR_0/in2 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=0p ps=0u
+M1086 Vdd B2 ADDER1bit_3/OR_0/a_2_n9# Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1087 ADDER1bit_2/CIn ADDER1bit_3/OR_0/a_0_n41# Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1088 Vdd ADDER1bit_3/OR_0/a_0_n41# ADDER1bit_2/CIn Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1089 ADDER1bit_3/OR_0/a_0_n41# B2 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1090 Gnd A0 ADDER1bit_4/AND_1/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1091 Vdd A0 ADDER1bit_4/AND_1/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1092 ADDER1bit_4/AND_1/a_n2_17# B0 ADDER1bit_4/AND_1/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1093 B1 ADDER1bit_4/AND_1/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1094 ADDER1bit_4/AND_1/a_n30_26# B0 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1095 Gnd ADDER1bit_4/AND_1/a_n30_26# B1 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1096 Gnd ADDER1bit_4/XOR_1/in1 ADDER1bit_4/AND_0/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1097 Vdd ADDER1bit_4/XOR_1/in1 ADDER1bit_4/AND_0/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1098 ADDER1bit_4/AND_0/a_n2_17# Gnd ADDER1bit_4/AND_0/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1099 ADDER1bit_4/OR_0/in2 ADDER1bit_4/AND_0/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1100 ADDER1bit_4/AND_0/a_n30_26# Gnd Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1101 Gnd ADDER1bit_4/AND_0/a_n30_26# ADDER1bit_4/OR_0/in2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1102 A0 B0 ADDER1bit_4/XOR_1/in1 Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=5.13p ps=16.2u
+M1103 ADDER1bit_4/XOR_1/in1 B0 ADDER1bit_4/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1104 ADDER1bit_4/XOR_0/a_12_17# A0 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1105 Gnd A0 ADDER1bit_4/XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1106 ADDER1bit_4/XOR_1/in1 ADDER1bit_4/XOR_0/a_12_17# B0 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1107 ADDER1bit_4/XOR_1/in1 A0 B0 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1108 ADDER1bit_4/XOR_1/in1 Gnd S0 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1109 S0 Gnd ADDER1bit_4/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1110 ADDER1bit_4/XOR_1/a_12_17# ADDER1bit_4/XOR_1/in1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1111 Gnd ADDER1bit_4/XOR_1/in1 ADDER1bit_4/XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1112 S0 ADDER1bit_4/XOR_1/a_12_17# Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1113 S0 ADDER1bit_4/XOR_1/in1 Gnd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=24.75p ps=82.2u
+M1114 ADDER1bit_4/OR_0/a_2_n9# ADDER1bit_4/OR_0/in2 ADDER1bit_4/OR_0/a_0_n41# Vdd pfet w=1.2u l=0.6u
++  ad=2.16p pd=6u as=1.8p ps=5.4u
+M1115 ADDER1bit_4/OR_0/a_0_n41# ADDER1bit_4/OR_0/in2 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=0p ps=0u
+M1116 Vdd B1 ADDER1bit_4/OR_0/a_2_n9# Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1117 ADDER1bit_3/CIn ADDER1bit_4/OR_0/a_0_n41# Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1118 Vdd ADDER1bit_4/OR_0/a_0_n41# ADDER1bit_3/CIn Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1119 ADDER1bit_4/OR_0/a_0_n41# B1 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+C0 Gnd Vdd 3.41fF
+C1 Gnd S0 3.28fF
+C2 B3 Vdd 8.15fF
+C3 ADDER1bit_1/OR_0/in1 Gnd 2.56fF
+C4 B0 Vdd 3.80fF
+C5 Vdd S0 3.33fF
+C6 Vdd S2 3.30fF
+C7 ADDER1bit_1/AND_0/a_n30_26# Vdd 2.23fF
+C8 A0 Vdd 4.50fF
+C9 ADDER1bit_1/OR_0/in1 Vdd 4.09fF
+C10 ADDER1bit_3/CIn S1 3.28fF
+C11 ADDER1bit_4/AND_1/a_n30_26# Vdd 2.23fF
+C12 S3 ADDER1bit_1/CIn 3.28fF
+C13 ADDER1bit_3/AND_1/a_n30_26# Vdd 2.23fF
+C14 B2 Gnd 2.81fF
+C15 ADDER1bit_2/AND_1/a_n30_26# Vdd 2.23fF
+C16 ADDER1bit_2/OR_0/in2 Vdd 4.57fF
+C17 A3 Vdd 4.50fF
+C18 ADDER1bit_3/CIn Vdd 4.27fF
+C19 ADDER1bit_1/AND_1/a_n30_26# Vdd 2.23fF
+C20 ADDER1bit_4/XOR_1/in1 Vdd 10.22fF
+C21 S3 Vdd 3.33fF
+C22 Gnd B1 2.81fF
+C23 B2 Vdd 8.15fF
+C24 Vdd ADDER1bit_4/AND_0/a_n30_26# 2.23fF
+C25 Vdd ADDER1bit_3/AND_0/a_n30_26# 2.23fF
+C26 ADDER1bit_2/CIn Vdd 4.19fF
+C27 Vdd ADDER1bit_2/XOR_1/in1 10.22fF
+C28 ADDER1bit_2/AND_0/a_n30_26# Vdd 2.23fF
+C29 ADDER1bit_2/CIn S2 3.28fF
+C30 A2 Vdd 4.50fF
+C31 Vdd B1 12.05fF
+C32 ADDER1bit_4/OR_0/in2 Vdd 4.57fF
+C33 ADDER1bit_3/OR_0/in2 Vdd 4.57fF
+C34 B3 Gnd 2.81fF
+C35 ADDER1bit_1/XOR_1/in1 Vdd 10.22fF
+C36 ADDER1bit_1/OR_0/in2 Vdd 4.57fF
+C37 ADDER1bit_3/XOR_1/in1 Vdd 10.22fF
+C38 S1 Vdd 3.30fF
+C39 ADDER1bit_1/CIn Vdd 4.27fF
+C40 B0 Gnd 2.31fF
+C41 Gnd Gnd 114.80fF
+C42 B0 Gnd 6.83fF
+C43 A0 Gnd 4.35fF
+C44 ADDER1bit_4/XOR_1/in1 Gnd 4.72fF
+C45 ADDER1bit_4/OR_0/in2 Gnd 5.51fF
+C46 B1 Gnd 16.28fF
+C47 Vdd Gnd 163.05fF
+C48 ADDER1bit_3/CIn Gnd 5.67fF
+C49 ADDER1bit_3/XOR_1/in1 Gnd 4.72fF
+C50 ADDER1bit_3/OR_0/in2 Gnd 5.51fF
+C51 B2 Gnd 11.62fF
+C52 ADDER1bit_2/CIn Gnd 8.24fF
+C53 A2 Gnd 4.73fF
+C54 ADDER1bit_2/XOR_1/in1 Gnd 4.72fF
+C55 ADDER1bit_2/OR_0/in2 Gnd 5.51fF
+C56 B3 Gnd 11.67fF
+C57 ADDER1bit_1/CIn Gnd 8.24fF
+C58 A3 Gnd 4.78fF
+C59 ADDER1bit_1/XOR_1/in1 Gnd 4.72fF
+C60 ADDER1bit_1/OR_0/in2 Gnd 5.51fF
+C61 ADDER1bit_1/OR_0/in1 Gnd 4.84fF

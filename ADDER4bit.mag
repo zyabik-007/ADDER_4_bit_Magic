@@ -1,0 +1,87 @@
+magic
+tech scmos
+timestamp 1612719856
+<< nwell >>
+rect 125 68 623 92
+rect 125 64 168 68
+rect 174 67 294 68
+rect 297 67 418 68
+rect 422 67 623 68
+rect 174 64 293 67
+rect 300 64 418 67
+rect 423 65 623 67
+rect 422 64 623 65
+rect 125 61 623 64
+rect 125 60 137 61
+<< metal1 >>
+rect 632 133 635 134
+rect 134 102 137 128
+rect 254 116 256 120
+rect 253 104 255 108
+rect 259 102 262 128
+rect 379 117 381 120
+rect 378 104 380 107
+rect 384 102 387 128
+rect 509 124 513 128
+rect 504 117 506 120
+rect 510 116 513 124
+rect 509 113 513 116
+rect 507 102 512 113
+rect 632 111 635 131
+rect 632 108 638 111
+rect 635 105 638 108
+rect 628 102 631 105
+rect 634 102 638 105
+rect 125 95 128 98
+rect 125 94 129 95
+rect 507 94 510 102
+rect 634 97 637 102
+rect 632 94 637 97
+rect 125 93 128 94
+rect 125 92 129 93
+rect 623 50 628 57
+rect 632 0 635 94
+<< metal2 >>
+rect 169 53 173 67
+rect 294 53 297 64
+rect 419 53 422 64
+rect 544 53 548 67
+<< metal3 >>
+rect 637 109 639 114
+rect 634 105 637 108
+rect 503 98 507 103
+rect 632 94 637 97
+use ADDER1bit  ADDER1bit_1
+timestamp 1612717600
+transform 1 0 170 0 1 60
+box -42 -60 92 74
+use ADDER1bit  ADDER1bit_2
+timestamp 1612717600
+transform 1 0 295 0 1 60
+box -42 -60 92 74
+use ADDER1bit  ADDER1bit_3
+timestamp 1612717600
+transform 1 0 420 0 1 60
+box -42 -60 92 74
+use ADDER1bit  ADDER1bit_4
+timestamp 1612717600
+transform 1 0 545 0 1 60
+box -42 -60 92 74
+<< labels >>
+rlabel metal1 633 2 633 2 8 Gnd
+rlabel space 4 93 4 93 3 S4
+rlabel metal1 626 53 626 53 1 Vdd
+rlabel metal2 545 54 545 54 1 S0
+rlabel metal2 170 54 170 54 1 S3
+rlabel metal2 420 54 420 54 1 S1
+rlabel metal2 295 54 295 54 1 S2
+rlabel metal3 638 112 638 112 7 B0
+rlabel metal1 630 103 630 103 1 A0
+rlabel metal3 505 100 505 100 1 A1
+rlabel metal1 379 105 379 105 1 A2
+rlabel metal1 380 118 380 118 1 B2
+rlabel metal1 255 118 255 118 1 B3
+rlabel metal1 254 106 254 106 1 A3
+rlabel metal1 126 96 126 96 1 S4
+rlabel metal1 505 119 505 119 1 B1
+<< end >>

@@ -1,0 +1,94 @@
+magic
+tech scmos
+timestamp 1612383202
+<< polysilicon >>
+rect 252 423 258 502
+rect 90 222 118 228
+rect 96 148 104 149
+rect -10 143 104 148
+rect -10 96 -4 143
+rect 96 130 104 143
+rect 227 130 234 206
+rect 332 142 348 148
+rect 97 123 234 130
+rect -10 91 0 96
+rect -3 -33 0 21
+rect 133 9 365 10
+rect 492 9 497 420
+rect 133 5 500 9
+rect -3 -37 114 -33
+rect 133 -89 138 5
+rect 361 2 500 5
+<< polycontact >>
+rect 252 502 258 511
+rect 504 488 525 497
+rect 514 430 523 445
+rect 249 414 257 423
+rect 492 420 497 427
+rect 85 222 90 228
+rect 118 222 122 228
+rect 227 206 232 211
+rect 328 142 332 148
+rect 348 142 352 148
+rect -25 -16 -21 -10
+rect 114 -37 119 -33
+<< metal1 >>
+rect 78 490 504 497
+rect 78 222 85 490
+rect 110 428 118 490
+rect 337 427 514 445
+rect 100 377 117 381
+rect 100 197 107 377
+rect 249 342 258 414
+rect 194 335 255 342
+rect 338 235 345 427
+rect 122 223 126 227
+rect 212 206 227 211
+rect 100 192 126 197
+rect 123 145 126 192
+rect 321 145 328 147
+rect 123 141 328 145
+rect 336 130 344 188
+rect 352 142 425 149
+rect 336 126 469 130
+rect 76 39 99 43
+rect 92 -10 99 39
+rect -21 -16 99 -10
+rect 131 12 135 13
+rect 446 12 460 126
+rect 131 9 487 12
+rect 114 -132 124 -37
+rect 131 -58 135 9
+rect 131 -62 138 -58
+rect 223 -73 239 -72
+rect 223 -79 246 -73
+rect 238 -131 246 -79
+rect 133 -132 246 -131
+rect 114 -138 246 -132
+use XOR  XOR_0
+timestamp 1612382396
+transform 1 0 141 0 1 408
+box -24 -66 104 62
+use AND  AND_0
+timestamp 1612382396
+transform 1 0 130 0 1 245
+box -4 -88 92 37
+use XOR  XOR_1
+timestamp 1612382396
+transform 1 0 368 0 1 215
+box -24 -66 104 62
+use OR  OR_1
+timestamp 1612382396
+transform 1 0 31 0 1 97
+box -31 -96 57 37
+use AND  AND_1
+timestamp 1612382396
+transform 1 0 142 0 1 -37
+box -4 -88 92 37
+<< labels >>
+rlabel metal1 506 435 506 435 1 in1
+rlabel metal1 467 128 467 128 1 in2
+rlabel metal1 498 493 498 493 5 Cin
+rlabel polycontact 255 506 255 506 5 Sout
+rlabel metal1 -17 -13 -17 -13 3 cout
+<< end >>

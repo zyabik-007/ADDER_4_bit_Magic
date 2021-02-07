@@ -1,0 +1,45 @@
+Circuit: * Test szybkosci sumatora 4-bitowego - test dodawania A+B=S przy czestotliwosci f=1/period.
+
+C29: both pins shorted together -- ignoring.
+Vshort: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+WARNING: Node ADDER1BIT_0/XOR_0/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_0/XOR_1/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_1/XOR_0/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_1/XOR_1/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_2/XOR_0/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_2/XOR_1/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_3/XOR_0/M1_42_N9# is floating.
+WARNING: Node ADDER1BIT_3/XOR_1/M1_42_N9# is floating.
+
+WARNING: Less than two connections to node GND!.  This node is used by VSHORT2.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Feb 04 15:40:00 2021
+Total elapsed time: 0.584 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2431
+traniter = 2394
+tranpoints = 1141
+accept = 1118
+rejected = 23
+matrix size = 94
+fillins = 108
+solver = Normal
+Thread vector: 79.5/30.6[16] 41.7/10.8[16] 7.7/3.4[15] 0.4/0.8[1]  2592/500
+Matrix Compiler1: 18.60 KB object code size  5.9/4.3/[1.8]
+Matrix Compiler2: 13.40 KB object code size  1.8/1.9/[0.8]
+

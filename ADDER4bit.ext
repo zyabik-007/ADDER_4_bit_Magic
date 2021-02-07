@@ -1,0 +1,160 @@
+timestamp 1612719856
+version 8.2
+tech scmos
+style AMI0.5um(amic5)from:T11Z
+scale 1000 1 30
+resistclasses 82400 102700 816000 816000 1 22300 41300 41300 90 90 60
+use ADDER1bit ADDER1bit_1 1 0 170 0 1 60
+use ADDER1bit ADDER1bit_2 1 0 295 0 1 60
+use ADDER1bit ADDER1bit_3 1 0 420 0 1 60
+use ADDER1bit ADDER1bit_4 1 0 545 0 1 60
+node "m3_632_94#" 0 114 632 94 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16
+node "A1" 0 166.2 503 98 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18
+node "m3_634_105#" 0 36.9 634 105 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12
+node "B0" 0 132.6 637 109 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 14
+node "S0" 0 394.08 544 53 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0
+node "S1" 0 417.36 419 53 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "S2" 0 417.36 294 53 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 28 0 0
+node "S3" 0 585.36 169 53 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0
+node "Vdd" 0 630.45 623 50 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0
+node "S4" 0 455.4 125 92 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 22 0 0 0 0
+node "A0" 0 291.51 628 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "Gnd" 4 7362.69 632 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 411 280 0 0 0 0
+node "B1" 0 238.74 504 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
+node "m1_507_94#" 1 2185.89 507 94 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 82 0 0 0 0
+node "m1_384_102#" 1 1505.22 384 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78 58 0 0 0 0
+node "A2" 0 238.74 378 104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
+node "B2" 0 238.74 379 117 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
+node "m1_259_102#" 1 1505.22 259 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78 58 0 0 0 0
+node "A3" 0 288.72 253 104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0
+node "B3" 0 288.72 254 116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0
+node "m1_134_102#" 1 1505.22 134 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78 58 0 0 0 0
+node "m1_632_133#" 0 185.97 632 133 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 8 0 0 0 0
+node "w_125_60#" 14957 53997.8 125 60 nw 0 0 0 0 15384 1120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m3_632_94#" "Gnd" 73.8
+cap "B0" "Gnd" 59.76
+cap "S1" "w_125_60#" 117.36
+cap "S4" "w_125_60#" 88.8
+cap "S2" "w_125_60#" 117.36
+cap "m1_507_94#" "A1" 96
+cap "S0" "w_125_60#" 312.96
+cap "S3" "w_125_60#" 121.68
+cap "m3_634_105#" "Gnd" 140.88
+subcap "m1_134_102#" -705.3
+subcap "w_125_60#" -36708.1
+cap "S4" "ADDER1bit_1/OR_0/Vdd" -22.2
+cap "S4" "ADDER1bit_1/OR_0/in2" -15
+cap "S3" "ADDER1bit_1/OR_0/Vdd" 213.6
+cap "ADDER1bit_1/OR_0/in1" "ADDER1bit_1/OR_0/Vdd" 68.4
+subcap "m1_259_102#" -955.32
+cap "ADDER1bit_1/Vdd" "ADDER1bit_2/Cout" 1.13687e-13
+cap "ADDER1bit_2/OR_0/in2" "ADDER1bit_2/Cout" -15
+cap "ADDER1bit_1/Vdd" "S2" 190.2
+cap "ADDER1bit_1/XOR_1/in1" "ADDER1bit_1/Vdd" -4.54747e-13
+cap "ADDER1bit_1/Vdd" "A3" 9.09495e-13
+cap "ADDER1bit_1/AND_1/in1" "ADDER1bit_2/Cout" 259.68
+cap "ADDER1bit_2/OR_0/a_0_n41#" "ADDER1bit_1/AND_1/in1" 52.02
+cap "ADDER1bit_1/XOR_1/in1" "A3" 1.42109e-14
+cap "ADDER1bit_1/Vdd" "ADDER1bit_1/AND_1/in1" 524.1
+cap "ADDER1bit_2/OR_0/in2" "ADDER1bit_1/AND_1/in1" 390.48
+cap "ADDER1bit_1/AND_1/out" "ADDER1bit_1/Vdd" 1.13687e-13
+cap "ADDER1bit_2/AND_0/Vdd" "ADDER1bit_2/AND_0/Vdd" 6.82121e-13
+subcap "m1_384_102#" -955.32
+cap "ADDER1bit_2/Vdd" "ADDER1bit_2/CIn" -86.4
+cap "ADDER1bit_2/Vdd" "ADDER1bit_2/AND_1/out" 1.13687e-13
+cap "ADDER1bit_3/Cout" "ADDER1bit_2/Vdd" 1.13687e-13
+cap "ADDER1bit_3/AND_0/Vdd" "ADDER1bit_3/AND_0/Vdd" 5.68434e-14
+cap "ADDER1bit_2/AND_1/in1" "ADDER1bit_3/OR_0/a_0_n41#" 52.02
+cap "A2" "ADDER1bit_2/XOR_1/in1" 1.42109e-14
+cap "ADDER1bit_3/Cout" "ADDER1bit_3/OR_0/in2" -15
+cap "ADDER1bit_2/AND_1/in1" "ADDER1bit_2/Vdd" 524.1
+cap "ADDER1bit_2/AND_1/in1" "ADDER1bit_3/OR_0/in2" 390.48
+cap "ADDER1bit_3/Cout" "ADDER1bit_2/AND_1/in1" 259.68
+cap "ADDER1bit_2/XOR_1/in1" "ADDER1bit_2/Vdd" 9.09495e-13
+subcap "m1_507_94#" -2337.03
+cap "ADDER1bit_3/Vdd" "A1" -66
+cap "A1" "ADDER1bit_4/OR_0/in2" -249.6
+cap "A1" "ADDER1bit_3/XOR_1/in1" 1.42109e-14
+cap "A1" "ADDER1bit_4/Cout" -117.84
+cap "S1" "ADDER1bit_3/Vdd" 190.2
+cap "ADDER1bit_4/OR_0/a_0_n41#" "A1" -33.6
+subcap "m1_507_94#" -1760.82
+cap "A1" "ADDER1bit_4/OR_0/a_0_n41#" 52.02
+cap "A1" "ADDER1bit_4/Cout" 143.52
+cap "ADDER1bit_4/OR_0/in2" "ADDER1bit_4/Cout" -15
+cap "ADDER1bit_3/Vdd" "ADDER1bit_4/Cout" 1.13687e-13
+cap "A1" "ADDER1bit_4/OR_0/in2" 390.48
+cap "A1" "ADDER1bit_3/Vdd" -8.1
+cap "ADDER1bit_3/Vdd" "S0" 22.32
+subcap "A0" -429.33
+subcap "Gnd" -52.62
+cap "Vdd" "A0" 2.16
+cap "Vdd" "ADDER1bit_4/AND_1/in1" 192
+cap "ADDER1bit_4/AND_1/in1" "Gnd" 1052.64
+subcap "m1_134_102#" -245.64
+cap "ADDER1bit_1/OR_0/in2" "S4" 457.8
+cap "ADDER1bit_1/CIn" "B3" 268.32
+cap "ADDER1bit_2/OR_0/in2" "B3" 560.88
+cap "ADDER1bit_1/CIn" "ADDER1bit_2/OR_0/in2" 457.8
+cap "B2" "ADDER1bit_3/OR_0/in2" 560.88
+cap "ADDER1bit_2/CIn" "ADDER1bit_3/OR_0/in2" 457.8
+cap "B2" "ADDER1bit_2/CIn" 268.32
+cap "ADDER1bit_4/OR_0/in2" "A1" -624
+cap "ADDER1bit_3/CIn" "A1" -340.8
+subcap "m1_507_94#" -107.76
+cap "ADDER1bit_3/CIn" "A1" 234.48
+cap "ADDER1bit_3/CIn" "ADDER1bit_4/OR_0/in2" 495.9
+cap "ADDER1bit_4/OR_0/in2" "A1" 560.88
+cap "B0" "ADDER1bit_4/Gnd" 330.36
+merge "ADDER1bit_3/in2" "ADDER1bit_4/OR_0/in1" 83.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 2 -16
+merge "ADDER1bit_4/OR_0/in1" "ADDER1bit_3/AND_1/in1"
+merge "ADDER1bit_3/AND_1/in1" "ADDER1bit_3/XOR_0/in1"
+merge "ADDER1bit_3/XOR_0/in1" "A1"
+merge "A1" "B1"
+merge "ADDER1bit_1/CIn" "ADDER1bit_2/Cout" -594.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -18 0 0 0 0
+merge "ADDER1bit_2/Cout" "m1_259_102#"
+merge "ADDER1bit_2/in2" "B2" -426.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "ADDER1bit_4/CIn" "ADDER1bit_4/OR_0/Gnd" -851.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -28 0 0 0 0
+merge "ADDER1bit_4/OR_0/Gnd" "ADDER1bit_4/AND_0/Gnd"
+merge "ADDER1bit_4/AND_0/Gnd" "ADDER1bit_4/Gnd"
+merge "ADDER1bit_4/Gnd" "ADDER1bit_3/Gnd"
+merge "ADDER1bit_3/Gnd" "Gnd"
+merge "Gnd" "ADDER1bit_3/AND_0/Gnd"
+merge "ADDER1bit_3/AND_0/Gnd" "ADDER1bit_2/Gnd"
+merge "ADDER1bit_2/Gnd" "m1_632_133#"
+merge "ADDER1bit_1/in2" "B3" -490.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "ADDER1bit_3/CIn" "ADDER1bit_4/Cout" -1032.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -38 0 0 0 0
+merge "ADDER1bit_4/Cout" "m1_507_94#"
+merge "ADDER1bit_4/XOR_0/Vdd" "ADDER1bit_4/XOR_1/Vdd" 27807.8 0 0 0 0 8083 -69 0 0 0 0 0 0 0 0 0 0 -11 -24 0 0 0 0
+merge "ADDER1bit_4/XOR_1/Vdd" "ADDER1bit_3/XOR_0/Vdd"
+merge "ADDER1bit_3/XOR_0/Vdd" "ADDER1bit_3/XOR_1/Vdd"
+merge "ADDER1bit_3/XOR_1/Vdd" "ADDER1bit_2/XOR_1/Vdd"
+merge "ADDER1bit_2/XOR_1/Vdd" "ADDER1bit_1/XOR_1/Vdd"
+merge "ADDER1bit_1/XOR_1/Vdd" "ADDER1bit_4/Vdd"
+merge "ADDER1bit_4/Vdd" "ADDER1bit_4/OR_0/Vdd"
+merge "ADDER1bit_4/OR_0/Vdd" "ADDER1bit_3/Vdd"
+merge "ADDER1bit_3/Vdd" "ADDER1bit_3/OR_0/Vdd"
+merge "ADDER1bit_3/OR_0/Vdd" "ADDER1bit_2/Vdd"
+merge "ADDER1bit_2/Vdd" "ADDER1bit_2/OR_0/Vdd"
+merge "ADDER1bit_2/OR_0/Vdd" "ADDER1bit_1/Vdd"
+merge "ADDER1bit_1/Vdd" "ADDER1bit_1/OR_0/Vdd"
+merge "ADDER1bit_1/OR_0/Vdd" "w_125_60#"
+merge "w_125_60#" "Vdd"
+merge "ADDER1bit_2/OR_0/in1" "ADDER1bit_1/AND_1/in1" -1565.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -98 -56
+merge "ADDER1bit_1/Cout" "m1_134_102#" -196.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 -16 0 0 0 0
+merge "m1_134_102#" "S4"
+merge "ADDER1bit_4/in2" "m3_634_105#" -285.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -22
+merge "m3_634_105#" "m3_632_94#"
+merge "m3_632_94#" "B0"
+merge "ADDER1bit_3/OR_0/in1" "ADDER1bit_2/AND_1/in1" -1565.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -98 -56
+merge "ADDER1bit_2/OR_0/Gnd" "ADDER1bit_2/AND_0/Gnd" -1216.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54 -48 0 0 0 0
+merge "ADDER1bit_2/AND_0/Gnd" "ADDER1bit_1/Gnd"
+merge "ADDER1bit_2/CIn" "ADDER1bit_3/Cout" -594.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -18 0 0 0 0
+merge "ADDER1bit_3/Cout" "m1_384_102#"
+merge "ADDER1bit_4/Sout" "S0" -162.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0
+merge "ADDER1bit_3/Sout" "S1" -208.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0
+merge "ADDER1bit_2/Sout" "S2" -208.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0
+merge "ADDER1bit_4/XOR_0/in1" "A0" -258.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "ADDER1bit_2/XOR_0/in1" "A2" -191.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "ADDER1bit_1/XOR_0/in1" "A3" -236.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "ADDER1bit_1/Sout" "S3" -353.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0

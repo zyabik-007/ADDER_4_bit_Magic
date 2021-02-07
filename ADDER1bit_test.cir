@@ -1,0 +1,22 @@
+*Test symulacyjny dla sumatora 1-bitowego
+
+.lib .\scn05mos59_ltspice.lib
+
+.include .\ADDER1bit.spice
+
+Vshort gnd 0 dc 0
+Vdd vdd 0 dc 3
+
+
+VCin Cin 0 dc 3
+
+Vin1 in1 0 dc 0 pulse(0 3 0.25u 1n 1n 0.5u 1u)
+Vin2 in2 0 dc 0 pulse(0 3 0.50u 1n 1n 0.5u 1u)
+
+
+.op
+.tran 1u 2u 0
+.probe v([Cin]) v([in1]) v([in2]) v([Sout]) v([Cout])
+.end
+
+

@@ -1,0 +1,98 @@
+magic
+tech scmos
+timestamp 1612717600
+<< nwell >>
+rect -3 1 12 32
+rect 28 4 36 8
+rect 28 3 37 4
+rect 38 1 54 36
+rect 21 -22 25 -19
+rect 26 -35 37 -18
+rect 28 -39 29 -35
+<< metal1 >>
+rect -42 71 92 74
+rect -6 58 -2 71
+rect 30 70 34 71
+rect 73 62 77 66
+rect -42 32 -36 35
+rect 35 0 38 8
+rect 78 4 81 8
+rect 44 0 48 4
+rect 74 0 81 4
+rect -42 -4 84 0
+rect 21 -22 25 -4
+rect 37 -5 41 -4
+rect 75 -22 79 -4
+rect -11 -53 -7 -50
+rect -42 -57 -10 -56
+rect -42 -60 92 -57
+<< m2contact >>
+rect 87 64 91 68
+<< metal2 >>
+rect -1 4 9 7
+<< m3contact >>
+rect 83 64 87 68
+<< metal3 >>
+rect 67 68 91 69
+rect 67 67 83 68
+rect 66 64 83 67
+rect 87 64 91 68
+rect 66 55 72 64
+rect 82 63 88 64
+rect 4 50 72 55
+rect -41 -48 -33 7
+rect -29 3 -11 9
+rect -29 -39 -22 3
+rect 4 -9 9 50
+rect 80 49 92 60
+rect 36 9 41 38
+rect 75 37 84 45
+rect 36 8 69 9
+rect -16 -23 -11 -9
+rect -6 -14 9 -9
+rect 27 3 69 8
+rect 27 -23 32 3
+rect 75 -1 80 37
+rect 87 34 92 49
+rect 37 -6 80 -1
+rect 83 29 92 34
+rect 37 -18 42 -6
+rect 83 -10 88 29
+rect 47 -15 88 -10
+rect 47 -18 52 -15
+rect -16 -29 32 -23
+rect -29 -40 -14 -39
+rect 18 -40 23 -38
+rect -29 -45 23 -40
+rect -41 -49 -15 -48
+rect 71 -49 76 -41
+rect -41 -54 76 -49
+use OR  OR_0
+timestamp 1612711204
+transform -1 0 -13 0 -1 10
+box -11 -49 29 15
+use XOR  XOR_1
+timestamp 1612713599
+transform 0 1 13 1 0 12
+box -11 -12 59 29
+use XOR  XOR_0
+timestamp 1612713599
+transform 0 1 56 1 0 12
+box -11 -12 59 29
+use AND  AND_0
+timestamp 1612710923
+transform -1 0 -7 0 -1 -24
+box -36 -15 17 33
+use AND  AND_1
+timestamp 1612710923
+transform -1 0 46 0 -1 -24
+box -36 -15 17 33
+<< labels >>
+rlabel metal3 88 57 88 57 1 in2
+rlabel metal1 -40 34 -40 34 3 Cout
+rlabel metal2 1 5 1 5 1 Sout
+rlabel metal1 86 72 86 72 5 Gnd
+rlabel metal3 87 66 87 66 1 CIn
+rlabel metal1 78 -59 78 -59 8 Gnd
+rlabel metal1 81 -2 81 -2 1 Vdd
+<< end >>

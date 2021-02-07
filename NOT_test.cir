@@ -1,0 +1,17 @@
+Test symulacyjny dla bramki NOT
+
+.lib .\scn05mos59_ltspice.lib
+
+.include .\NOT.spice
+
+Vshort gnd 0 dc 0
+Vdd vdd 0 dc 3
+
+Vin in 0 dc 0 pulse(0 3 0.5u 1n 1n 0.5u 1u)
+
+.op
+.tran 1u 2u 0
+.probe v([in]) v([out])
+.end
+
+

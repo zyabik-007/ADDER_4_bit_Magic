@@ -1,0 +1,18 @@
+Test symulacyjny dla bramki OR
+
+.lib .\scn05mos59_ltspice.lib
+
+.include .\OR.spice
+
+Vshort gnd 0 dc 0
+Vdd vdd 0 dc 3
+
+Vin1 in1 0 dc 0 pulse(0 3 0.50u 1n 1n 0.5u 1u)
+Vin2 in2 0 dc 0 pulse(0 3 0.75u 1n 1n 1.0u 2u)
+
+.op
+.tran 1u 2u 0
+.probe v([in1]) v([in2]) v([out])
+.end
+
+

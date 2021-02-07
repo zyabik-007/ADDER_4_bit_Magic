@@ -1,0 +1,81 @@
+* SPICE3 file created from ADDER1bit.ext - technology: scmos
+
+M1000 Gnd AND_1/in2 AND_1/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=15.39p pd=48.6u as=1.98p ps=6u
+M1001 Vdd AND_1/in2 AND_1/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=17.28p pd=54u as=1.98p ps=6u
+M1002 AND_1/a_n2_17# in2 AND_1/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1003 OR_0/in1 AND_1/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1004 AND_1/a_n30_26# in2 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Gnd AND_1/a_n30_26# OR_0/in1 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1006 Gnd XOR_1/in1 AND_0/a_n2_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1007 Vdd XOR_1/in1 AND_0/a_n30_26# Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.98p ps=6u
+M1008 AND_0/a_n2_17# CIn AND_0/a_n30_26# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1009 OR_0/in2 AND_0/a_n30_26# Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1010 AND_0/a_n30_26# CIn Vdd Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1011 Gnd AND_0/a_n30_26# OR_0/in2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1012 AND_1/in2 in2 XOR_1/in1 Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=5.13p ps=16.2u
+M1013 XOR_1/in1 in2 XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1014 XOR_0/a_12_17# AND_1/in2 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1015 Gnd AND_1/in2 XOR_0/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1016 XOR_1/in1 XOR_0/a_12_17# in2 Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1017 XOR_1/in1 AND_1/in2 in2 Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1018 XOR_1/in1 CIn Sout Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=3.42p ps=10.8u
+M1019 Sout CIn XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=3.42p ps=10.8u
+M1020 XOR_1/a_12_17# XOR_1/in1 Vdd Vdd pfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1021 Gnd XOR_1/in1 XOR_1/a_12_17# Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1022 Sout XOR_1/a_12_17# CIn Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1023 Sout XOR_1/in1 CIn Vdd pfet w=0.9u l=0.6u
++  ad=0p pd=0u as=1.71p ps=5.4u
+M1024 OR_0/a_2_n9# OR_0/in2 OR_0/a_0_n41# Vdd pfet w=1.2u l=0.6u
++  ad=2.16p pd=6u as=1.8p ps=5.4u
+M1025 OR_0/a_0_n41# OR_0/in2 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=3.42p pd=10.8u as=0p ps=0u
+M1026 Vdd OR_0/in1 OR_0/a_2_n9# Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1027 Cout OR_0/a_0_n41# Gnd Gnd nfet w=0.9u l=0.6u
++  ad=1.71p pd=5.4u as=0p ps=0u
+M1028 Vdd OR_0/a_0_n41# Cout Vdd pfet w=1.2u l=0.6u
++  ad=0p pd=0u as=1.8p ps=5.4u
+M1029 OR_0/a_0_n41# OR_0/in1 Gnd Gnd nfet w=0.9u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+C0 AND_1/a_n30_26# Vdd 2.23fF
+C1 OR_0/in1 Vdd 4.02fF
+C2 Vdd CIn 3.41fF
+C3 in2 Vdd 3.61fF
+C4 OR_0/in1 Gnd 2.56fF
+C5 AND_0/a_n30_26# Vdd 2.23fF
+C6 Sout Vdd 2.99fF
+C7 Vdd AND_1/in2 4.50fF
+C8 Vdd OR_0/in2 4.57fF
+C9 Sout CIn 3.28fF
+C10 XOR_1/in1 Vdd 10.22fF
+C11 CIn Gnd 7.20fF
+C12 Gnd Gnd 25.03fF
+C13 in2 Gnd 6.54fF
+C14 AND_1/in2 Gnd 4.49fF
+C15 XOR_1/in1 Gnd 4.72fF
+C16 OR_0/in2 Gnd 5.51fF
+C17 OR_0/in1 Gnd 4.84fF
+C18 Vdd Gnd 36.28fF
